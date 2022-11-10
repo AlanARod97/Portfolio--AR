@@ -14,63 +14,127 @@
 
 <body id="body">
 
-    <header class="header">
-        <div class="navBarComun">
+    <header>
+        <div>
 
             
         
-            <img src="../img/logoPortfolio1.jpg" alt="" class="logoPortfolioNav">
-
-        
-
-            <nav>
-                <ul class="estiloListaNav">
-                    <li>
-                        <a href="../index.html" class="estiloLetrasListaNav">Home</a>
-                    </li>
-                    <li>
-                        <a href="../html/sobreMi.html" class="estiloLetrasListaNav"> Sobre mi</a>
-                    </li>
-                    <li>
-                        <a href="../html/proyectos.html" class="estiloLetrasListaNav">Proyectos</a>
-                    </li>
-                    <li>
-                        <a href="../html/servicios.html" class="estiloLetrasListaNav">Servicios</a>
-                    </li>
-                    <li>
-                        <a href="../html/contactame.html" class="estiloLetrasListaNav">Contactame</a>
-                    </li>
-                </ul>
-
-            </nav>
-
-            
-        </div>
-
+            <section>
+                <nav class="navbar navbar-expand-lg" style="background-color: #000117">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="../img/logoPortfolio1.jpg" alt="logo" width="90" height="85">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                          <a class=" estiloLetrasNav nav-link" style="color:  #e7c500; font-size: large; font-family: 'JetBrains Mono', monospace;" aria-current="page" href="../index.html">Home</a>
+                          <a class=" estiloLetrasNav nav-link"  style="color:  #e7c500; font-size: large; font-family: 'JetBrains Mono', monospace;" href="../html/sobreMi.html">Sobre mi</a>
+                          <a class="estiloLetrasNav nav-link"  style="color:  #e7c500; font-size: large; font-family: 'JetBrains Mono', monospace;" href="../html/servicios.html">Servicios</a>
+                          <a class="estiloLetrasNav nav-link" style="color:  #e7c500; font-size: large; font-family: 'JetBrains Mono', monospace;" href="../html/proyectos.html">Proyectos</a>
+                          <a class="estiloLetrasNav nav-link" style="color:  #e7c500; font-size: large; font-family: 'JetBrains Mono', monospace;" href="../html/contactame.html">Contactame</a>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+    
+            </section>
         
     
         
 </header>
+
+
+
+
 <main>
     <section>
-        <h1>Mis servicios</h1>
+       <div class="contenedorTituloServicios">
+        <h1>  Efectividad, compromiso y trabajo duro </h1>
+        <h2> Si se puede imaginar, se puede programar.</h2>
+        <p>
+            Estas son las tegnologias en las que me especializo.
+        </p>
+       </div>
 
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolores quam odio incidunt eveniet, alias placeat dolor ex, reiciendis numquam rem magni velit corrupti tempora ipsam similique optio. Veniam, tempore.</p>
+       <div class=" d-flex flex-rows justify-content-evenly flex-wrap">
+        <div class="card p-2 m-2" style="width: 18rem;">
+            <img src="../img/html-css-logo-removebg-preview.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">HTML y CSS</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>
+                <button class="btn" style="background-color: orangered;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-expanded="false" aria-controls="collapseExample">
+                  Mas informacion
+                </button>
+              </p>
+              <div class="collapse" id="collapse">
+                <div class="card card-body">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+                
+                        
         </div>
-    </section>
+          </div>
 
-    <section>
-        <h2>Tegnologias utilizadas</h2>
-        <!--AQUI SE INSERTARAN CARTAS CON TEXTO ESPECIFICANDO LAS TEGNOLOGIAS-->
+          <div class="card m-2" style="width: 18rem;">
+            <img src="../img/LOGOJAVASCRIPT-removebg-preview.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Java Script</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>
+                <button class="btn" style="background-color: #e7c500;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapseExample">
+                  Mas informacion
+                </button>
+              </p>
+              <div class="collapse" id="collapse1">
+                <div class="card card-body">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+            </div>
+          </div>
 
-    </section>
+          <div class="card m-2" style="width: 18rem;">
+            <img src="../img/kisspng-react-javascript--removebg-preview.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">ReacJS</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>
+                <button class="btn" style="background-color: skyblue;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapseExample">
+                  Mas informacion
+                </button>
+              </p>
+              <div class="collapse" id="collapse2">
+                <div class="card card-body">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+              
+            </div>
+          </div>
 
-    <section>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A sapiente fugiat et recusandae doloribus temporibus cupiditate omnis voluptas natus. Aliquam quis eaque vitae aperiam eos similique ex? Incidunt, adipisci voluptatum?</p>
+          <div class="card m-2 p-2" style="width: 18rem;">
+            <img src="../img/png-transparent-sql-logo-removebg-preview.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">SQL</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Mas informacion 
+                </button>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+          </div>
+       </div>
 
-        </div>
     </section>
 
 </main>
@@ -83,7 +147,7 @@
         <div class="box">
             <figure>
                 <a href="#">
-                    <img src="../img/logoPortfolio2-MODIFICADO.jpg" alt="">
+                    <img src="../img/logoPortfolio2-MODIFICADO-removebg-preview.png" alt="">
                 </a>
             </figure>
         </div>

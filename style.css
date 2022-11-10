@@ -282,7 +282,7 @@
 
 .contenedorTituloServicios{
     width:  100%;
-    height: 25vh;
+    height: 40vh;
     margin-top: 2%;
     
 }
@@ -311,6 +311,60 @@
     font-size: x-large;
     
 }
+
+
+
+
+/*----------------------PROYECTOS--------------------------*/
+
+.tituloProyectos{
+    font-family: 'JetBrains Mono', monospace ;
+    text-align: center;
+    color: #e7c500;
+    text-shadow:  10px 10px 30px #c501e2;
+
+}
+
+.contenedorProyectos{
+    margin-top: 3%;
+
+}
+
+.contenedorProyectos h2{
+    font-family:'JetBrains Mono', monospace ;
+    text-align: center;
+    color: #93DA49;
+    font-size: x-large;
+}
+
+.contenedorProyectos p{
+    font-family: 'JetBrains Mono', monospace ;
+    text-align: center;
+    color: #c501e2;
+
+}
+
+.contenedorProyectos a{
+    text-decoration: none;
+    color: #c501e2;
+
+}
+
+.contenedorProyectos a:hover{
+    color: #c501e2;
+}
+
+.contenedorProyectos svg:hover{
+    transform: scale(1.1);
+    
+}
+
+.contenedorProyectos svg{
+    width: 7vw;
+    height: 7vh;
+}
+
+
 
 
 

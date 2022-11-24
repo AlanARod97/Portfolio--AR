@@ -1,0 +1,218 @@
+@import '../base.scss/variables';
+
+/*---------------------------INDEX------------------------------*/
+
+/*portada*/
+
+.portadaIndex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30em;
+    background-image: url(../img/close-up-image-of-programer-working-at-his-desk-in-office.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+    
+    
+}
+
+
+
+.frasePortadaIndex{
+    text-align: center;
+}
+
+.estiloLetrasFrasePortadaIndex{
+    font-family: 'JetBrains Mono', monospace;
+    color: #e7c400;
+    text-shadow: 5px 5px 30px #c501e2;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.botonPortadaIndex{
+    padding: 1rem;
+    text-decoration: none;
+    border: 2px solid #000117;
+    border-radius: 25%;
+    color: #e7c500;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: large;
+    font-weight: bold;
+    
+
+}
+
+.botonPortadaIndex:hover{
+    transform: scale(1.1);
+    color: #e7c500;
+    background-color: rgba(0,0,0,.6);
+    
+}
+
+
+/*Frase Index*/
+
+
+.contenedorFraseIndex{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    padding: 0 5rem 0 5rem;
+}
+
+
+
+
+.contenedorFraseIndex p{
+    text-align: center;
+    color: #93DA49;
+    text-shadow: 5px 5px 30px #c501e2;
+    font-size: large;
+    font-family: 'JetBrains Mono', monospace;
+    margin: auto;
+    
+}
+
+.contenedorFraseIndex a{
+    color: #93DA49;
+    text-decoration: none;
+}
+.contenedorFraseIndex svg:hover{
+    transform: scale(1.2);
+    color: #93DA49;
+}
+
+
+
+.contenedorFraseIndex svg{
+    width: 6vw;
+    height: 6vh;
+}
+
+.imagenSecundariaIndex{
+    background-image: url(../img/imagenSobreMi3.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    border-top: 1px solid #c401e291;
+    border-bottom: 1px solid #c401e291;
+}
+
+.fraseSecundariaIndex{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    
+}
+
+.fraseSecundariaIndex p{
+    margin: auto;
+    color: #e7c500;
+    font-family: 'JetBrains Mono', monospace;
+    text-shadow: 5px 5px 30px #c501e2;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+
+/*Servicios Index*/
+
+.contenedorServiciosIndex{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    background-attachment: fixed;
+}
+
+.tituloServiciosIndex{
+    color: #2aad79;
+    font-family:'JetBrains Mono', monospace ;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+}
+
+.imagenServiciosIndex{
+    width: 20rem;
+    height: 20rem;
+}
+
+
+
+.contenedorImagenServiciosIndex{
+    position: relative;
+
+}
+
+.contenedorImagenServiciosIndex:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+.textoimagenServiciosIndex{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 30%;
+    text-align: center;
+    color: white;
+    padding: 25%;
+   
+    
+}
+
+.contenedorImagenServiciosIndex:hover .textoimagenServiciosIndex{
+    display: block;
+    transition-delay: 1s;
+}
+
+
+/* Agenda Reunion*/
+
+.agendaReunion{
+    width: 100%;
+    height: 30vh;
+}
+
+.agendaReunion h2{
+    text-align: center;
+    color: #93DA49;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'JetBrains Mono', monospace;
+    text-shadow: 5px 5px 30px #e7c500;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.agendaReunion a{
+
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.agendaReunion svg{
+    
+    width: 6vw;
+    height: 6vh;
+}
+

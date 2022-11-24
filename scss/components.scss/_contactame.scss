@@ -1,0 +1,45 @@
+/*-------------------CONTACTAME-------------------------*/
+
+.contenedorContacto{
+    width: 100%;
+    height: 90vh;
+    
+}
+
+.tituloContacto{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    color: #e7c500;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: xx-large;
+    text-shadow:  10px 10px 30px #c501e2;
+    
+}
+
+.contenedorContacto a{
+    color:#c501e2;
+    margin: 4%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.contenedorContacto a:hover{
+    transform: scale(1.1);
+}
+
+.contenedorContacto svg{
+    width: 5vw ;
+    height: 5vh ;
+}
+
+.contenedorContacto p{
+    
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace ;
+    font-size: small;
+    
+}
+
+
+

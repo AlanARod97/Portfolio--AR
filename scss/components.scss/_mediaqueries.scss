@@ -1,0 +1,55 @@
+/*-----------------------MEDIA QUERYS------------------------*/
+
+@media screen and (max-width: 800px){
+
+
+
+    /*Estilos Comunes - Responsive*/
+
+    .piePagina .grupo1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+
+
+    .contenedorServiciosIndex{
+        
+        height: 140vh;
+    }
+
+    
+    
+    
+    /*Sobre Mi - Responsive*/
+
+    .fondoSobreMi{
+        height: 120vh;
+    }
+    
+    .capaFondo{
+        height: 120vh;
+    }
+
+    .parrafoSobreMi{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .imagenSobreMi{
+        width: 80%;
+        height: 50vh;
+    }
+
+    
+
+
+
+    .contenedorContacto{
+        height: 70;
+
+    }
+
+}

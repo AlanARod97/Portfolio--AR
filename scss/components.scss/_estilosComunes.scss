@@ -1,0 +1,87 @@
+@import '../base.scss/variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/*----------Estilos Comunes de Todas las Paginas-------------*/
+
+#body{
+    background-color: #000117;
+}
+
+/*--navbar--*/
+
+.estiloLetrasNav{
+    margin-right: 1rem;
+}
+
+.estiloLetrasNav:hover{
+    border-bottom: 1px solid $Color_Letras;
+    color: $Color_Letras;
+    
+ 
+} 
+
+
+
+
+/*--Footer---*/
+
+.piePagina{
+    width: 100%;
+    background-color: #0a1a2a88;
+}
+
+.piePagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+
+
+
+.piePagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piePagina .grupo1 .box figure img{
+    width: 250px;
+
+}
+
+.piePagina .grupo1 .redSocial a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+}
+
+.piePagina	.grupo2 {
+    width: 100%;
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+    
+}
+
+
+
+

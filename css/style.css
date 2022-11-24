@@ -1,0 +1,439 @@
+/*---------COMPONENTS--------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*----------Estilos Comunes de Todas las Paginas-------------*/
+#body {
+  background-color: #000117;
+}
+
+/*--navbar--*/
+.estiloLetrasNav {
+  margin-right: 1rem;
+}
+
+.estiloLetrasNav:hover {
+  border-bottom: 1px solid #e7c500;
+  color: #e7c500;
+}
+
+/*--Footer---*/
+.piePagina {
+  width: 100%;
+  background-color: rgba(10, 26, 42, 0.5333333333);
+}
+
+.piePagina .grupo1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.piePagina .grupo1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.piePagina .grupo1 .box figure img {
+  width: 250px;
+}
+
+.piePagina .grupo1 .redSocial a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  margin-right: 10px;
+  background-color: #0d2033;
+  text-align: center;
+}
+
+.piePagina .grupo2 {
+  width: 100%;
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  text-align: center;
+  color: white;
+}
+
+/*---------------------------INDEX------------------------------*/
+/*portada*/
+.portadaIndex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30em;
+  background-image: url(../img/close-up-image-of-programer-working-at-his-desk-in-office.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.frasePortadaIndex {
+  text-align: center;
+}
+
+.estiloLetrasFrasePortadaIndex {
+  font-family: "JetBrains Mono", monospace;
+  color: #e7c400;
+  text-shadow: 5px 5px 30px #c501e2;
+  margin-bottom: 1rem;
+}
+
+.botonPortadaIndex {
+  padding: 1rem;
+  text-decoration: none;
+  border: 2px solid #000117;
+  border-radius: 25%;
+  color: #e7c500;
+  font-family: "JetBrains Mono", monospace;
+  font-size: large;
+  font-weight: bold;
+}
+
+.botonPortadaIndex:hover {
+  transform: scale(1.1);
+  color: #e7c500;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/*Frase Index*/
+.contenedorFraseIndex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  padding: 0 5rem 0 5rem;
+}
+
+.contenedorFraseIndex p {
+  text-align: center;
+  color: #93DA49;
+  text-shadow: 5px 5px 30px #c501e2;
+  font-size: large;
+  font-family: "JetBrains Mono", monospace;
+  margin: auto;
+}
+
+.contenedorFraseIndex a {
+  color: #93DA49;
+  text-decoration: none;
+}
+
+.contenedorFraseIndex svg:hover {
+  transform: scale(1.2);
+  color: #93DA49;
+}
+
+.contenedorFraseIndex svg {
+  width: 6vw;
+  height: 6vh;
+}
+
+.imagenSecundariaIndex {
+  background-image: url(../img/imagenSobreMi3.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20em;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  border-top: 1px solid rgba(196, 1, 226, 0.568627451);
+  border-bottom: 1px solid rgba(196, 1, 226, 0.568627451);
+}
+
+.fraseSecundariaIndex {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+}
+
+.fraseSecundariaIndex p {
+  margin: auto;
+  color: #e7c500;
+  font-family: "JetBrains Mono", monospace;
+  text-shadow: 5px 5px 30px #c501e2;
+  font-size: xx-large;
+  text-align: center;
+}
+
+/*Servicios Index*/
+.contenedorServiciosIndex {
+  width: 100%;
+  height: 90vh;
+  background-color: white;
+  background-attachment: fixed;
+}
+
+.tituloServiciosIndex {
+  color: #2aad79;
+  font-family: "JetBrains Mono", monospace;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.imagenServiciosIndex {
+  width: 20rem;
+  height: 20rem;
+}
+
+.contenedorImagenServiciosIndex {
+  position: relative;
+}
+
+.contenedorImagenServiciosIndex:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.textoimagenServiciosIndex {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 30%;
+  text-align: center;
+  color: white;
+  padding: 25%;
+}
+
+.contenedorImagenServiciosIndex:hover .textoimagenServiciosIndex {
+  display: block;
+  transition-delay: 1s;
+}
+
+/* Agenda Reunion*/
+.agendaReunion {
+  width: 100%;
+  height: 30vh;
+}
+
+.agendaReunion h2 {
+  text-align: center;
+  color: #93DA49;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: "JetBrains Mono", monospace;
+  text-shadow: 5px 5px 30px #e7c500;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.agendaReunion a {
+  text-decoration: none;
+  color: white;
+}
+
+.agendaReunion svg {
+  width: 6vw;
+  height: 6vh;
+}
+
+/*-----------------------SOBRE MI-----------------------------------*/
+.fondoSobreMi {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/computer-program-coding-on-screen.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.capaFondo {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background: #000117;
+  opacity: 0.7;
+}
+
+.parrafoSobreMi {
+  z-index: 1;
+  width: 40rem;
+  height: 35rem;
+  padding: 1rem 1rem;
+  font-size: 15px;
+  line-height: 1.5;
+  background: rgba(0, 0, 0, 0.822);
+  box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+  border-radius: 5px;
+  text-align: justify;
+  font-family: "JetBrains Mono", monospace;
+  color: #e7c500;
+  overflow: auto;
+}
+
+.imagenSobreMi {
+  width: 25vw;
+  height: 45vh;
+  border-radius: 5px;
+  float: left;
+  margin-right: 1rem;
+}
+
+/*-------------SERVICIOS--------------------*/
+.contenedorTituloServicios {
+  width: 100%;
+  height: 40vh;
+  margin-top: 2%;
+}
+
+.contenedorTituloServicios h1 {
+  font-family: "JetBrains Mono", monospace;
+  color: #e7c500;
+  font-size: x-large;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.contenedorTituloServicios h2 {
+  font-family: "JetBrains Mono", monospace;
+  color: #93DA49;
+  font-size: large;
+  margin-left: 15rem;
+  margin-bottom: 1%;
+}
+
+.contenedorTituloServicios p {
+  font-family: "JetBrains Mono", monospace;
+  color: #c501e2;
+  text-align: center;
+  font-size: x-large;
+}
+
+/*----------------------PROYECTOS--------------------------*/
+.tituloProyectos {
+  font-family: "JetBrains Mono", monospace;
+  text-align: center;
+  color: #e7c500;
+  text-shadow: 10px 10px 30px #c501e2;
+}
+
+.contenedorProyectos {
+  margin-top: 3%;
+}
+
+.contenedorProyectos h2 {
+  font-family: "JetBrains Mono", monospace;
+  text-align: center;
+  color: #93DA49;
+  font-size: x-large;
+}
+
+.contenedorProyectos p {
+  font-family: "JetBrains Mono", monospace;
+  text-align: center;
+  color: #c501e2;
+}
+
+.contenedorProyectos a {
+  text-decoration: none;
+  color: #c501e2;
+}
+
+.contenedorProyectos a:hover {
+  color: #c501e2;
+}
+
+.contenedorProyectos svg:hover {
+  transform: scale(1.1);
+}
+
+.contenedorProyectos svg {
+  width: 7vw;
+  height: 7vh;
+}
+
+/*-------------------CONTACTAME-------------------------*/
+.contenedorContacto {
+  width: 100%;
+  height: 90vh;
+}
+
+.tituloContacto {
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  color: #e7c500;
+  font-family: "JetBrains Mono", monospace;
+  font-size: xx-large;
+  text-shadow: 10px 10px 30px #c501e2;
+}
+
+.contenedorContacto a {
+  color: #c501e2;
+  margin: 4%;
+  text-decoration: none;
+  text-align: center;
+}
+
+.contenedorContacto a:hover {
+  transform: scale(1.1);
+}
+
+.contenedorContacto svg {
+  width: 5vw;
+  height: 5vh;
+}
+
+.contenedorContacto p {
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
+  font-size: small;
+}
+
+/*-----------------------MEDIA QUERYS------------------------*/
+@media screen and (max-width: 800px) {
+  /*Estilos Comunes - Responsive*/
+  .piePagina .grupo1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+  .contenedorServiciosIndex {
+    height: 140vh;
+  }
+  /*Sobre Mi - Responsive*/
+  .fondoSobreMi {
+    height: 120vh;
+  }
+  .capaFondo {
+    height: 120vh;
+  }
+  .parrafoSobreMi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .imagenSobreMi {
+    width: 80%;
+    height: 50vh;
+  }
+  .contenedorContacto {
+    height: 70;
+  }
+}
+/*-----------BASE--------------*/
+
+/*# sourceMappingURL=style.css.map */

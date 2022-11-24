@@ -1,0 +1,47 @@
+/*-----------------------SOBRE MI-----------------------------------*/
+
+.fondoSobreMi{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/computer-program-coding-on-screen.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.capaFondo{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: #000117;
+    opacity: 0.7;
+}
+
+
+
+.parrafoSobreMi{
+    z-index: 1;
+    width: 40rem;
+    height: 35rem;
+    padding: 1rem 1rem;
+    font-size: 15px;
+    line-height: 1.5;
+    background: rgba(0, 0, 0, 0.822);
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    text-align: justify;
+    font-family: 'JetBrains Mono', monospace;
+    color: #e7c500;
+    overflow: auto;
+}
+
+.imagenSobreMi{
+    width: 25vw;
+    height: 45vh;
+    border-radius: 5px;
+    float: left;
+    margin-right: 1rem;
+}
+

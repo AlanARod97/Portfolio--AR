@@ -36,6 +36,11 @@
   padding: 45px 0px;
 }
 
+.box p {
+  color: white;
+  font-family: "JetBrains Mono", monospace;
+}
+
 .piePagina .grupo1 .box figure {
   width: 100%;
   height: 100%;
@@ -74,12 +79,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100%;
-  height: 30em;
+  height: 40em;
   background-image: url(../img/close-up-image-of-programer-working-at-his-desk-in-office.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
+  border-bottom: 1px solid #c501e2;
 }
 
 .frasePortadaIndex {
@@ -89,15 +96,15 @@
 .estiloLetrasFrasePortadaIndex {
   font-family: "JetBrains Mono", monospace;
   color: #e7c400;
-  text-shadow: 5px 5px 30px #c501e2;
-  margin-bottom: 1rem;
+  text-shadow: 5px 5px 10px #c501e2;
+  margin-bottom: 2rem;
 }
 
 .botonPortadaIndex {
   padding: 1rem;
   text-decoration: none;
   border: 2px solid #000117;
-  border-radius: 25%;
+  border-radius: 10px;
   color: #e7c500;
   font-family: "JetBrains Mono", monospace;
   font-size: large;
@@ -110,13 +117,46 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.redesSocialesPortada {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.redesSocialesPortada a {
+  text-decoration: none;
+  color: #e7c500;
+}
+
+.redesSocialesPortada a:hover {
+  color: #c501e2;
+}
+
+.redesSocialesPortada svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+.redesSocialesPortada svg:hover {
+  transform: scale(1.1);
+}
+
 /*Frase Index*/
 .contenedorFraseIndex {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 70vh;
+  height: 100%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   padding: 0 5rem 0 5rem;
+}
+
+.contenedorFraseIndex h2 {
+  text-align: center;
+  color: #e7c500;
+  text-shadow: 5px 5px 30px #c501e2;
+  font-family: "JetBrains Mono", monospace;
+  font-size: x-large;
 }
 
 .contenedorFraseIndex p {
@@ -125,7 +165,6 @@
   text-shadow: 5px 5px 30px #c501e2;
   font-size: large;
   font-family: "JetBrains Mono", monospace;
-  margin: auto;
 }
 
 .contenedorFraseIndex a {
@@ -160,7 +199,9 @@
 .fraseSecundariaIndex {
   display: flex;
   width: 100%;
-  height: 60vh;
+  height: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .fraseSecundariaIndex p {
@@ -175,16 +216,15 @@
 /*Servicios Index*/
 .contenedorServiciosIndex {
   width: 100%;
-  height: 90vh;
+  height: 100%;
   background-color: white;
-  background-attachment: fixed;
 }
 
 .tituloServiciosIndex {
   color: #2aad79;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.603);
   font-family: "JetBrains Mono", monospace;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-top: 1rem;
 }
 
 .imagenServiciosIndex {
@@ -232,8 +272,8 @@
   font-size: x-large;
   font-weight: bold;
   font-family: "JetBrains Mono", monospace;
-  text-shadow: 5px 5px 30px #e7c500;
-  margin-top: 3rem;
+  text-shadow: 5px 5px 10px #e7c500;
+  margin-top: 2rem;
   margin-bottom: 3rem;
 }
 
@@ -250,7 +290,7 @@
 /*-----------------------SOBRE MI-----------------------------------*/
 .fondoSobreMi {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -261,7 +301,7 @@
 
 .capaFondo {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   position: absolute;
   background: #000117;
   opacity: 0.7;
@@ -292,46 +332,62 @@
 }
 
 /*-------------SERVICIOS--------------------*/
-.contenedorTituloServicios {
-  width: 100%;
-  height: 40vh;
-  margin: 4%;
-  overflow: auto;
+#contenedorHabilidades {
+  margin-bottom: 10rem;
 }
 
-.contenedorTituloServicios h1 {
+.contenedorTituloHabilidades {
+  width: 100%;
+  height: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 3rem 1rem 1rem 1rem;
+}
+
+.contenedorTituloHabilidades h1 {
   font-family: "JetBrains Mono", monospace;
   color: #e7c500;
   font-size: x-large;
   text-align: center;
-  margin-bottom: 1%;
+  text-shadow: 5px 5px 30px #c501e2;
+  margin-bottom: 2rem;
 }
 
-.contenedorTituloServicios h2 {
+.contenedorTituloHabilidades h2 {
   font-family: "JetBrains Mono", monospace;
   color: #93DA49;
   font-size: large;
+  text-shadow: 5px 5px 30px #c501e2;
   margin-left: 15rem;
-  margin-bottom: 1%;
+  margin-bottom: 2rem;
 }
 
-.contenedorTituloServicios p {
+.contenedorTituloHabilidades p {
   font-family: "JetBrains Mono", monospace;
   color: #c501e2;
   text-align: center;
   font-size: x-large;
+  text-shadow: 5px 5px 30px #c501e2;
 }
 
 /*----------------------PROYECTOS--------------------------*/
+#contenedorProyectos {
+  margin-bottom: 10rem;
+}
+
 .tituloProyectos {
+  margin: 3rem 1rem 3rem 1rem;
   font-family: "JetBrains Mono", monospace;
   text-align: center;
   color: #e7c500;
-  text-shadow: 10px 10px 30px #c501e2;
+  text-shadow: 10px 10px 20px #c501e2;
 }
 
 .contenedorProyectos {
+  width: 100%;
+  height: 100%;
   margin-top: 3%;
+  margin-bottom: 2rem;
 }
 
 .contenedorProyectos h2 {
@@ -339,12 +395,14 @@
   text-align: center;
   color: #93DA49;
   font-size: x-large;
+  padding: 0 5rem 0 5rem;
 }
 
 .contenedorProyectos p {
   font-family: "JetBrains Mono", monospace;
-  text-align: center;
+  text-align: justify;
   color: #c501e2;
+  padding: 0 5rem 0 5rem;
 }
 
 .contenedorProyectos a {
@@ -361,14 +419,21 @@
 }
 
 .contenedorProyectos svg {
-  width: 7vw;
-  height: 7vh;
+  width: 5vw;
+  height: 5vh;
+}
+
+.marginCarousel {
+  border: 1px solid white;
+  box-shadow: 1px 1px 5px 5px rgba(196, 1, 226, 0.7529411765);
 }
 
 /*-------------------CONTACTAME-------------------------*/
 .contenedorContacto {
   width: 100%;
-  height: 90vh;
+  height: 100%;
+  margin-bottom: 10rem;
+  padding-top: 3rem;
 }
 
 .tituloContacto {
@@ -378,7 +443,7 @@
   color: #e7c500;
   font-family: "JetBrains Mono", monospace;
   font-size: xx-large;
-  text-shadow: 10px 10px 30px #c501e2;
+  text-shadow: 10px 10px 30px rgba(196, 1, 226, 0.6117647059);
 }
 
 .contenedorContacto a {
@@ -412,8 +477,12 @@
     grid-gap: 30px;
     padding: 35px 0px;
   }
-  .contenedorServiciosIndex {
-    height: 140vh;
+  /*Home Responsive*/
+  .contenedorFraseIndex {
+    margin-top: 3rem;
+  }
+  .contenedorFraseIndex p {
+    font-size: 15px;
   }
   /*Sobre Mi - Responsive*/
   .fondoSobreMi {
@@ -431,11 +500,87 @@
     width: 80%;
     height: 50vh;
   }
-  .contenedorTituloServicios {
-    height: 50vh;
+}
+@media screen and (max-width: 500px) {
+  /*Home Responsive*/
+  .portadaIndex {
+    height: 30em;
   }
-  .contenedorContacto {
-    height: 70;
+  .contenedorFraseIndex {
+    padding: 0 3rem 0 3rem;
+  }
+  /*Habilidades Responsive*/
+  .contenedorTituloHabilidades h1 {
+    font-size: large;
+  }
+  .contenedorTituloHabilidades h2 {
+    font-size: medium;
+    margin-left: 10rem;
+  }
+  .contenedorTituloHabilidades p {
+    font-size: large;
+  }
+  /*Proyectos Responsive*/
+  .tituloProyectos {
+    font-size: x-large;
+  }
+  .contenedorProyectos h2 {
+    font-size: large;
+  }
+  .contenedorProyectos p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 350px) {
+  /*Estilos comunes responsive*/
+  .piePagina .grupo1 .box figure img {
+    width: 170px;
+  }
+  .box p {
+    font-size: x-small;
+  }
+  /*Home Responsive*/
+  .contenedorFraseIndex {
+    padding: 0 2rem 0 2rem;
+  }
+  .contenedorFraseIndex h2 {
+    font-size: large;
+  }
+  .contenedorFraseIndex p {
+    font-size: small;
+  }
+  .imagenSecundariaIndex {
+    height: 15em;
+  }
+  .fraseSecundariaIndex p {
+    font-size: medium;
+  }
+  .imagenServiciosIndex {
+    width: 15rem;
+    height: 15rem;
+  }
+  /* Sobre Mi Responsive*/
+  .imagenSobreMi {
+    height: 40vh;
+  }
+  /*Habilidades Responsive*/
+  .contenedorTituloHabilidades h2 {
+    font-size: 15px;
+    margin-left: 5rem;
+  }
+}
+@media screen and (max-width: 250px) {
+  .contenedorFraseIndex {
+    padding: 0 3rem 0 3rem;
+  }
+  .contenedorFraseIndex h2 {
+    font-size: medium;
+  }
+  .contenedorFraseIndex p {
+    font-size: x-small;
+  }
+  .agendaReunion {
+    height: 35vh;
   }
 }
 /*-----------BASE--------------*/

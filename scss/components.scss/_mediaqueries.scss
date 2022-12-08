@@ -1,5 +1,8 @@
 /*-----------------------MEDIA QUERYS------------------------*/
 
+
+
+
 @media screen and (max-width: 800px){
 
 
@@ -13,15 +16,22 @@
         padding: 35px 0px;
     }
 
+    /*Home Responsive*/
 
-    .contenedorServiciosIndex{
-        
-        height: 140vh;
+    .contenedorFraseIndex{
+    
+        margin-top: 3rem;
     }
 
     
+    .contenedorFraseIndex p{
+        
+        font-size: 15px;
     
-    
+    }
+
+
+
     /*Sobre Mi - Responsive*/
 
     .fondoSobreMi{
@@ -36,6 +46,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        
     }
 
     .imagenSobreMi{
@@ -43,17 +54,169 @@
         height: 50vh;
     }
 
-    .contenedorTituloServicios{
-        height: 50vh;
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    /*Home Responsive*/
+
+    .portadaIndex{
+        height: 30em;
     }
+
+    .contenedorFraseIndex{
+
+        padding: 0 3rem 0 3rem;
+    }
+
+   
 
     
 
 
+    /*Habilidades Responsive*/
 
-    .contenedorContacto{
-        height: 70;
+    
 
+    .contenedorTituloHabilidades h1{
+        font-size: large;
+        
+    }
+    
+    .contenedorTituloHabilidades h2{
+        font-size: medium;
+        margin-left: 10rem;
+    
+    }
+    
+    .contenedorTituloHabilidades p{
+       
+        font-size: large;
+        
+    }
+
+    /*Proyectos Responsive*/
+
+    .tituloProyectos{
+        font-size: x-large;
+    
+    }
+    
+    
+    
+    .contenedorProyectos h2{
+        
+        font-size: large;
+        
+    }
+    
+    .contenedorProyectos p{
+         
+        font-size: 15px;
+    
     }
 
 }
+
+
+
+@media screen and (max-width:350px){
+
+    /*Estilos comunes responsive*/
+
+    .piePagina .grupo1 .box figure img{
+        width: 170px;
+    
+    }
+
+    .box p{
+        font-size: x-small;
+    }
+
+    /*Home Responsive*/
+
+    .contenedorFraseIndex{
+   
+        padding: 0 2rem 0 2rem;
+    }
+
+    .contenedorFraseIndex h2{
+        
+        font-size: large;
+    }
+    
+    
+    
+    
+    .contenedorFraseIndex p{
+        font-size: small;
+        
+        
+    }
+
+    .imagenSecundariaIndex{
+
+        height: 15em;
+        
+    }
+
+    
+    
+    .fraseSecundariaIndex p{
+       
+        font-size: medium;
+    }
+
+
+
+    .imagenServiciosIndex{
+        width: 15rem;
+        height: 15rem;
+    }
+
+    /* Sobre Mi Responsive*/
+
+    .imagenSobreMi{
+        height: 40vh;
+    }
+    
+    
+
+    
+    /*Habilidades Responsive*/
+
+    .contenedorTituloHabilidades h2{
+        font-size: 15px;
+        margin-left: 5rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 250px){
+
+    .contenedorFraseIndex{
+
+        padding: 0 3rem 0 3rem;
+    }
+
+    .contenedorFraseIndex h2{
+        
+        font-size: medium;
+    }
+    
+     .contenedorFraseIndex p{
+        font-size: x-small;
+        
+    }
+
+
+    .agendaReunion{
+        height: 35vh;
+    }
+    
+}
+
